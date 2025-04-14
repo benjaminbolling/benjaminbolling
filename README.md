@@ -12,7 +12,7 @@
 
 **Contact information:**
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=12&center=true&vCenter=true&width=340&height=16&duration=4000&pause=500&color=2C98C8FF&lines=My+email+address+is+my+git+username+at+icloud+dot+com.;"/>
+my+git+username+at+icloud+dot+com
 
 [LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
 
@@ -84,7 +84,7 @@ Collect, manipulate and visualize large waveforms at high repetition rates (test
 <td>
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/X.gif" width="200" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/X.gif" width="300" />
 </div>
 
 </td>
