@@ -12,15 +12,17 @@
 
 **Contact information:**
 
+<div align="center">
 my+git+username+at+icloud+dot+com
+
+---
 
 [LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
 
 [![LinkedIn](https://a11ybadges.com/badge?logo=linkedin)](https://www.linkedin.com/in/benjamin-b-a320475b/)
-
 [![ORCID](https://a11ybadges.com/badge?logo=orcid)](https://orcid.org/0000-0002-6650-5365)
 
-
+</div>
 
 </td>
 <td>
