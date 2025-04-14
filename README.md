@@ -12,7 +12,8 @@ Welcome to my personal coding page. For information about me, check out my ORCID
 <tr>
 <td>
 
-- Email address: benjaminbolling at icloud dot com
+- Email address:
+  - benjaminbolling at icloud dot com
 - ORCID: [0000-0002-6650-5365](https://orcid.org/0000-0002-6650-5365) [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6650-5365)
 - [LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
 - [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/benjamin-b-a320475b/)
