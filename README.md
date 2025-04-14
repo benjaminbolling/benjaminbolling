@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=1000&height=200&duration=4000&color=2C98C8FF&lines=Dear+Visitor,;Welcome+to+my+personal+coding+page!+👋;If+you+have+any+requests+or+questions,+drop+me+an+email.;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=1000&height=200&duration=4000&pause=500&color=2C98C8FF&lines=Dear+Visitor,;Welcome+to+my+personal+coding+page!+👋;If+you+have+any+requests+or+questions,+drop+me+an+email.;" />
 </h1>
 
 
@@ -12,14 +12,15 @@
 
 **Contact information:**
 
-My email address is my git\
-username at icloud dot com.
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=12&center=true&vCenter=true&width=340&height=16&duration=4000&pause=500&color=2C98C8FF&lines=My+email+address+is+my+git+username+at+icloud+dot+com.;"/>
 
 [LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
 
 [![LinkedIn](https://a11ybadges.com/badge?logo=linkedin)](https://www.linkedin.com/in/benjamin-b-a320475b/)
 
 [![ORCID](https://a11ybadges.com/badge?logo=orcid)](https://orcid.org/0000-0002-6650-5365)
+
+
 
 </td>
 <td>
