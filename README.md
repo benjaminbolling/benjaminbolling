@@ -52,6 +52,8 @@ A small collection of 5 coding projects.
 # About me
 Here are some personal preferences when it comes to programming, writing, and analysing data. The only reason to have them here is because they make my profile page look fancy with all these badges.
 
+<div align="center">
+    
 | Programming languages (in a descending order) |
 | --- |
 | ( ... this is very political and I am heavily biased ... ) |
@@ -64,6 +66,8 @@ Here are some personal preferences when it comes to programming, writing, and an
 | CI: | AI: | OS: | IDE: |
 | --- | --- | --- | --- |
 | [![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=fff)](#) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#) | [![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?logo=openai&logoColor=white)](#) ![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?logo=github-copilot&logoColor=white) | [![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#) [![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff)](#) [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](#) | [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#) [![PyCharm](https://img.shields.io/badge/PyCharm-000?logo=pycharm&logoColor=fff)](#) |
+
+</div>
 
 ---
 
