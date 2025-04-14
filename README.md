@@ -69,10 +69,10 @@ Beneath is a short description of the small collection of 5 coding projects.
 <tr>
 <td>
 
-Collect, manipulate and visualize large waveforms at high\
-repetition rates (tested with up to 14Hz) in real time or\
-archived data in 2D (using heatmaps) or 3D, utilizing Python\
-and the pure-python graphics and GUI library PyQtGraph and\
+Collect, manipulate and visualize large waveforms at high
+repetition rates (tested with up to 14Hz) in real time or
+archived data in 2D (using heatmaps) or 3D, utilizing Python
+and the pure-python graphics and GUI library PyQtGraph and
 PyQt5 with Python-OpenGL bindings.
 
 [Link to Publication](https://doi.org/10.18429/JACoW-ICALEPCS2023-TUMBCMO12)
@@ -80,7 +80,9 @@ PyQt5 with Python-OpenGL bindings.
 </td>
 <td>
 
-![Alt Text](https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/X.gif)
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/X.gif" width="200" />
+</div>
 
 </td>
 </tr>
