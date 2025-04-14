@@ -1,27 +1,26 @@
-# Welcome
-
-Dear visitor,
-
-Welcome to my personal coding page. For information about me, check out my ORCID or research portal profile below. If you have any requests or questions, drop me an email. 
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=1000&height=200&duration=4000&color=2C98C8FF&lines=Dear+Visitor,;Welcome+to+my+personal+coding+page!+👋;If+you+have+any+requests+or+questions,+drop+me+an+email.;" />
+</h1>
 
 <table>
 <tr>
-<th> Contact information </th>
-<th> GitHub statistics </th>
-</tr>
-<tr>
 <td>
 
-- Email address:
-  - git username at icloud dot com
-- ORCID: [0000-0002-6650-5365](https://orcid.org/0000-0002-6650-5365) [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-6650-5365)
-- [LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
-- [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/benjamin-b-a320475b/)
+**Contact information:**
+
+My email address is my git\
+username at icloud dot com.
+
+[LU Research Portal](https://portal.research.lu.se/en/persons/benjamin-bolling)
+
+[![LinkedIn](https://a11ybadges.com/badge?logo=linkedin)](https://www.linkedin.com/in/benjamin-b-a320475b/)
+
+[![ORCID](https://a11ybadges.com/badge?logo=orcid)](https://orcid.org/0000-0002-6650-5365)
 
 </td>
 <td>
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=benjaminbolling&hide_border=true&show_icons=true&bg_color=151515&title_color=fb4362&icon_color=fb4362&text_bold=false&text_color=9e9e9e)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=benjaminbolling&theme=solarized-dark&show_icons=true&rank_icon=github)
 
 </td>
 </tr>
