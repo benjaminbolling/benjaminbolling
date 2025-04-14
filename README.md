@@ -2,6 +2,10 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=1000&height=200&duration=4000&color=2C98C8FF&lines=Dear+Visitor,;Welcome+to+my+personal+coding+page!+👋;If+you+have+any+requests+or+questions,+drop+me+an+email.;" />
 </h1>
 
+
+
+<div align="center">
+
 <table>
 <tr>
 <td>
@@ -25,6 +29,8 @@ username at icloud dot com.
 </td>
 </tr>
 </table>
+
+</div>
 
 ---
 
