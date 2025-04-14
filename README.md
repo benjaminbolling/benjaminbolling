@@ -52,7 +52,7 @@ Here are some personal preferences when it comes to programming, writing, and an
 | [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#) &rarr; ![Julia](https://img.shields.io/badge/-Julia-9558B2?logo=julia&logoColor=white) &rarr; [![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#) &rarr; [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#) &rarr; [![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)](#) &rarr; [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) &rarr; [![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#) |
 
 | Data Science packages | Writing |
-| --- | --- | --- |
+| --- | --- |
 | [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#) [![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=%white) | [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?logo=latex&logoColor=white) |
 
 | CI: | AI: | OS: | IDE: |
