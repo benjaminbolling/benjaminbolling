@@ -189,7 +189,7 @@ Applied the trained neural-network taggers to real ATLAS Open Data to evaluate t
 
 ---
 
-## LU NTF014F Project 3" Entropic Spring, Hooke's Law, Monte Carlo (MC) <a name="ntf014f_mc"></a>
+## LU NTF014F Project 3: Entropic Spring, Hooke's Law, Monte Carlo (MC) <a name="ntf014f_mc"></a>
 Explored how elastic behavior can emerge from microscopic statistical mechanics using MC simulations of a one-dimensional chain model. By sampling and reweighting ensembles of randomly oriented molecular links under an external force, the simulation demonstrates the transition from entropy-dominated to energy-dominated regimes. The study shows that Hooke’s law naturally arises from the collective behavior of microscopic degrees of freedom, linking statistical fluctuations to macroscopic elasticity.
 
 **Task 1 – Unbiased Ensemble:**
