@@ -49,6 +49,15 @@ A small collection of 5 coding projects.
 - DynaGUI ([go to](#dynagui)) (published as a SW paper)
 - SPMTUI ([go to](#spmtui))
 
+### Fun from excellent courses
+Some fun coding projects from courses I have completed.
+
+#### Lund University, NTF014F/FYSN33
+Autumn 2025: Applied Computational Physics and Machine Learning, consisting of 3 interesting projects:
+- SPH Simulations in Computational Physics ([go to](#ntf014f_sph))
+- Neural Network (NN) Tagger for Hadronic W/Z → qq̄ Jets ([go to](#ntf014f_nn))
+- MC (([go to](#ntf014f_mc))
+
 ---
 
 # About me
@@ -126,7 +135,7 @@ DynaGUI stands for Dynamic Graphical User Interface and is a method to construct
 [Link to DynaGUI repo](https://github.com/benjaminbolling/DynaGUI)
 
 
-## SPMTUI <a name="dynagui"></a> spmtui
+## SPMTUI <a name="spmtui"></a>
 SPMTUI stands for Simple Project Management Text-based User Interface and was made for myself for logging and keeping track of tasks and projects to do, in progress, and completed. The code is fully built in Python. SPMTUI functionalities includes:
 - Commands with tab-completion
 - Colour-coded states of each task
@@ -136,3 +145,62 @@ SPMTUI stands for Simple Project Management Text-based User Interface and was ma
 I ended up not using this tool but instead rely on structured [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#) weekly planning checklists instead. 
 
 [Link to SPMTUI repo](https://github.com/benjaminbolling/SPMTUI)
+
+---
+
+## LU NTF014F Project 1: SPH Simulations in Computational Physics <a name="ntf014f_sph"></a>
+Developed and implemented **Smooth Particle Hydrodynamics (SPH)** simulations in Python to model both fluid and astrophysical systems, covering a classic *1D shock tube* problem extended into a more advanced *3D Planetary Collision* scenario. Through these implementations, I demonstrated proficiency in numerical physics, algorithm design, and data visualization for high-performance scientific computing.
+
+### Project 1 part 1: 1D shock tube
+Implemented a **1D SPH solver** to simulate the evolution of pressure and density discontinuities in Sod's shock tube, a standard benchmark in computational fluid dynamics. The model reproduced the expected shockwave propagation and rarefaction patterns, validating the accuracy of the SPH formulation and numerical scheme. This stage of the project focused on verifying the correctness and stability of the core simulation engine before extending it to three dimensions. The end result was the animation visualizing the shockwave propagation and rarefaction patterns.
+
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1a.gif" width="300" />
+</div>
+
+### Project 1 part 2: 3D Planetary Collision
+Extended the verified SPH framework to a **3D gravitational simulation** of two colliding Jupiter-like gas giants, incorporating self-gravity, rotation, and realistic energy transfer. The simulation captured key physical behaviors such as orbital spin-up, impact dynamics, and post-merger stabilization. This part of the project showcased skills in high-dimensional data handling, numerical stability optimization, and the physical modeling of complex astrophysical systems. The end result was the movie visualizing the collisiong between the planets.
+
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1b.mov" width="300" />
+</div>
+
+---
+
+## LU NTF014F Project 2: Neural Network (NN) Tagger for Hadronic W/Z → qq̄ Jets <a name="ntf014f_nn"></a>
+Developed a lightweight NN classifier to identify boosted W/Z→qq̄ jets in ATLAS Open Data, distinguishing them from generic Quantum Chromodynamics (QCD) background jets. The model was trained on Monte Carlo–simulated events and evaluated on real Large Hadron Collider (LHC) data using ROC curves and purity metrics. This project demonstrates skills in particle-physics data analysis, NN design, and performance benchmarking against traditional physics-based selection methods.
+
+### Project 2 part 1: Cut-Based Baseline
+A cut-based selection model was implemented to establish a performance reference using simple, interpretable physics criteria. This approach leveraged kinematic features such as jet and lepton momentum, pseudorapidity, and angular separation to isolate likely signal events. While transparent and physically motivated, the method yielded limited signal purity, motivating the introduction of machine-learning techniques for improved discrimination.
+
+### Project 2 part 2: NN Training
+Designed and trained a compact Multi-Layer Perceptron (MLP) using PyTorch with three hidden layers, ReLU activations, dropout regularization, and sigmoid output for binary classification. Training was performed on simulated events with three optimizers (Adam, RMSprop, and SGD) to compare convergence stability and model performance. The final networks achieved strong separation power on the test set, reflected by high AUC values and smooth learning curves over ~500 epochs. The figure beneath shows the loss and accuracy improvements as a function of epochs in the top-left and top-right subplots, respectively, whereas the ROC curve (on the test split) and the purity as a function of the threshold are shown in the bottom-left and bottom-right subplots, comparing the performance of the different optimizers MLPs. Furthermore, the best epochs are indicated in the top for the respective models.
+
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_training.png" width="400" />
+</div>
+
+### Project 2 part 3: Application to ATLAS Open Data**
+Applied the trained neural-network taggers to real ATLAS Open Data to evaluate their effectiveness on experimental jet events. Each model's optimal working point was determined using ROC-based thresholds, followed by purity calculations and jet-mass distribution analysis. The best-performing model (RMSprop-trained) achieved **over 83% purity**, significantly outperforming the cut-based baseline with ~51% purity, confirming the NN's superior capability in identifying hadronic W/Z decays. In the figure beneath we can observe the normalized densities for all events, cut-based (simple physics-driven selection) and NN-selected data with different optimizers for NN-selections, with the purities indicated atop of each subplot for the single optimizer comparison subplots. 
+
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_apply.png" width="400" />
+</div>
+
+---
+
+## LU NTF014F Project 3" Entropic Spring, Hooke's Law, Monte Carlo (MC) <a name="ntf014f_mc"></a>
+Explored how elastic behavior can emerge from microscopic statistical mechanics using MC simulations of a one-dimensional chain model. By sampling and reweighting ensembles of randomly oriented molecular links under an external force, the simulation demonstrates the transition from entropy-dominated to energy-dominated regimes. The study shows that Hooke’s law naturally arises from the collective behavior of microscopic degrees of freedom, linking statistical fluctuations to macroscopic elasticity.
+
+**Task 1 – Unbiased Ensemble:**
+An ensemble of rubber bands with randomly oriented links was simulated to compute the probability distribution of total extension. The Monte Carlo histogram closely matched the analytical binomial distribution (P(L)), confirming correct random sampling and normalization. Small deviations at the distribution edges were consistent with expected statistical uncertainties, validating the method’s accuracy.
+
+**Task 2 – Reweighting for Biased Ensembles:**
+Boltzmann reweighting factors (e^{\beta f L}) were applied to unbiased configurations to estimate the force-dependent probability distribution (P_f(L)). This approach accurately reproduced analytical predictions for small forces but degraded as (f > 0.1) due to insufficient overlap between unbiased and biased ensembles. The effective sample size (\mu_{\text{eff}}) quantified this loss of reliability, illustrating the practical limits of reweighting.
+
+**Task 3 – Direct Sampling of Biased Configurations:**
+To overcome reweighting limitations, biased configurations were generated directly using force-dependent probabilities (p_+(f)) and (p_-(f)). The simulated mean extension (\langle L\rangle(f)) agreed with the theoretical expression (Na\tanh(\beta f a)), reproducing Hookean linearity at low forces and saturation at high forces. A dedicated animation visualized this process, showing how microscopic link orientations progressively align with increasing force: A clear depiction of entropy giving rise to emergent macroscopic elasticity. This animation is attached below, where the rubberband link extension is a function of force $f$ with links arranged according to the simulated value.
+
+<div align="center">
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/rubberband_visualization.mp4" width="400" />
+</div>
