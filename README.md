@@ -155,14 +155,14 @@ Developed and implemented **Smooth Particle Hydrodynamics (SPH)** simulations in
 Implemented a **1D SPH solver** to simulate the evolution of pressure and density discontinuities in Sod's shock tube, a standard benchmark in computational fluid dynamics. The model reproduced the expected shockwave propagation and rarefaction patterns, validating the accuracy of the SPH formulation and numerical scheme. This stage of the project focused on verifying the correctness and stability of the core simulation engine before extending it to three dimensions. The end result was the animation visualizing the shockwave propagation and rarefaction patterns.
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1a.gif" width="300" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1a.gif" width="600" />
 </div>
 
 ### Project 1 part 2: 3D Planetary Collision
 Extended the verified SPH framework to a **3D gravitational simulation** of two colliding Jupiter-like gas giants, incorporating self-gravity, rotation, and realistic energy transfer. The simulation captured key physical behaviors such as orbital spin-up, impact dynamics, and post-merger stabilization. This part of the project showcased skills in high-dimensional data handling, numerical stability optimization, and the physical modeling of complex astrophysical systems. The end result was the movie visualizing the collisiong between the planets.
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1b.mov" width="300" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/animation_NTF014F_benbol_project1b.mov" width="600" />
 </div>
 
 ---
@@ -177,14 +177,14 @@ A cut-based selection model was implemented to establish a performance reference
 Designed and trained a compact Multi-Layer Perceptron (MLP) using PyTorch with three hidden layers, ReLU activations, dropout regularization, and sigmoid output for binary classification. Training was performed on simulated events with three optimizers (Adam, RMSprop, and SGD) to compare convergence stability and model performance. The final networks achieved strong separation power on the test set, reflected by high AUC values and smooth learning curves over ~500 epochs. The figure beneath shows the loss and accuracy improvements as a function of epochs in the top-left and top-right subplots, respectively, whereas the ROC curve (on the test split) and the purity as a function of the threshold are shown in the bottom-left and bottom-right subplots, comparing the performance of the different optimizers MLPs. Furthermore, the best epochs are indicated in the top for the respective models.
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_training.png" width="400" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_training.png" width="600" />
 </div>
 
 ### Project 2 part 3: Application to ATLAS Open Data**
 Applied the trained neural-network taggers to real ATLAS Open Data to evaluate their effectiveness on experimental jet events. Each model's optimal working point was determined using ROC-based thresholds, followed by purity calculations and jet-mass distribution analysis. The best-performing model (RMSprop-trained) achieved **over 83% purity**, significantly outperforming the cut-based baseline with ~51% purity, confirming the NN's superior capability in identifying hadronic W/Z decays. In the figure beneath we can observe the normalized densities for all events, cut-based (simple physics-driven selection) and NN-selected data with different optimizers for NN-selections, with the purities indicated atop of each subplot for the single optimizer comparison subplots. 
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_apply.png" width="400" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/fig_NN_apply.png" width="600" />
 </div>
 
 ---
@@ -202,5 +202,5 @@ Boltzmann reweighting factors (e^{\beta f L}) were applied to unbiased configura
 To overcome reweighting limitations, biased configurations were generated directly using force-dependent probabilities (p_+(f)) and (p_-(f)). The simulated mean extension (\langle L\rangle(f)) agreed with the theoretical expression (Na\tanh(\beta f a)), reproducing Hookean linearity at low forces and saturation at high forces. A dedicated animation visualized this process, showing how microscopic link orientations progressively align with increasing force: A clear depiction of entropy giving rise to emergent macroscopic elasticity. This animation is attached below, where the rubberband link extension is a function of force $f$ with links arranged according to the simulated value.
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/rubberband_visualization.mov" width="400" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/rubberband_visualization.mov" width="600" />
 </div>
