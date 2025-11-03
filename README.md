@@ -202,5 +202,5 @@ Boltzmann reweighting factors (e^{\beta f L}) were applied to unbiased configura
 To overcome reweighting limitations, biased configurations were generated directly using force-dependent probabilities (p_+(f)) and (p_-(f)). The simulated mean extension (\langle L\rangle(f)) agreed with the theoretical expression (Na\tanh(\beta f a)), reproducing Hookean linearity at low forces and saturation at high forces. A dedicated animation visualized this process, showing how microscopic link orientations progressively align with increasing force: A clear depiction of entropy giving rise to emergent macroscopic elasticity. This animation is attached below, where the rubberband link extension is a function of force $f$ with links arranged according to the simulated value.
 
 <div align="center">
-  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/rubberband_visualization.mp4" width="400" />
+  <img src="https://github.com/benjaminbolling/benjaminbolling/blob/main/assets/rubberband_visualization.mov" width="400" />
 </div>
